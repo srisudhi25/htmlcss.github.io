@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Sematic Tags</title>
+</head>
+<style>
+    label{
+        background-color: rgb(187, 48, 48);
+        border: 5px solid black;
+        padding: 5 %;
+    }
+    
+     h2::first-line{
+        size: 10px;
+        background-color: crimson;
+    }
+   
+</style>
+<body>
+    <header>Welcome to our page</header>
+    <nav>
+        <a href "#">Home</a>
+        <a href "#">About Us</a>
+        <a href "#>Content</a>
+        <a href "#">Sign out</a>
+    </nav>
+    <main>Main Tag 
+        <ul><li>Home</li>
+        <li>Contents</li>
+    <li>Informations</li></ul>
+    </main>
+    <aside>
+        <figure><img src="data:image/png;base64,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"></figure>
+        <figcaption>This is the image</figcaption>
+    </aside><br>
+
+    <label>HELLO</label>
+    
+    <h2>Semantic HTML tags are tags that define the meaning of the content they contain. For example, tags like and are semantic HTML tags. They clearly indicate the role of the content they contain. On the other hand, tags like  and  are typical examples of non-semantic HTML elements</h2>
+    
+
+    
+</body>
+</html>
