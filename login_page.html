@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Form</title>
+</head>
+<style>
+    body{
+        background-color: rgb(253, 215, 141);
+       
+        background-image: url("https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&w=600");
+        background-size:cover;
+        background-repeat: no-repeat;
+       
+    }
+    form{
+        
+        border-radius: 10%;
+        font-weight: 100;
+       margin-top: 15%;
+        margin: 15%;
+        margin-left:37%;
+        padding-top: 2%;
+        text-align: center;
+        background-color:rgb(246, 106, 64);
+        color:rgb(0, 0, 0);
+        width: 500px;
+        height: 350px;
+        padding: auto;
+       
+    }
+    input{
+        
+        align-items: right;
+        margin:2%;
+    }
+    .btn{
+        size: 200%;
+    }
+ 
+    
+    
+</style>
+<body>    
+
+    <form>
+        <h1>Login</h1>
+
+        <label><b>Email Id : </b><input type="text"> </label><br>
+        <br><label><b>Password :  </b><input type="password"> </label><br>
+       
+        <br>  <input  id="login" class="btn" type="submit" value="Login">
+        <p>or</p>
+        <nav>No account ? <a id="register" class="n1" href="registration_form.html">Create a new account</a></nav>
+
+    </form>
+
+    <script>
+        var x= document.getElementById("login");
+        var y= document.getElementById("register");
+        var z= document.getElementById("btn");
+        function register() {
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+        function login() {
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0px";
+        }
+        
+    </script>
+
+</body>
+</html>
